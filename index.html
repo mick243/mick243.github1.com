@@ -1,44 +1,27 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-  <style>
-	h1{
-	color: white;
-	}
-</style>
-</head>
-<body>
-  <div id="Deemo">
-<h1>Deemo</h1>
-<p>
-<font size="5" color="white">
-대만의 게임 회사인 Rayark사에서 2013년 3월에 최초 공개한 건반형 리듬 게임. 
-해당 회사는 또다른 리듬게임인 Cytus로 이미 전세계적인 인기를 끌어모은 바 있다.
-</br>
-2013년 도쿄 게임쇼에 기존에 있던 모바일 게임인 사이터스, 만도라와 새로이 출시될 
-Implosion과 함께 참가하여 본격적으로 공개하였다. 
-읽는 방법은 "디모"로, 퍼블리셔는 Cytus 때처럼 iOS는 자체배급, 안드로이드는 
-유비누리(앱질)가 될 듯했으나 현재 유비누리는 저작권 관련 위임만 받았을 뿐, 
-자체 퍼블리싱 버전은 출시하지 않고 있다.
-</br>
-리듬 게임 계에서 희귀하다 볼 수 있는 피아노 음색 위주의 리듬게임으로, 
-거의 모든 수록곡이 피아노 선율 위주의 곡이다. 
-아케이드로는 뮤지박스나 Mozarc 등의 전례가 있지만, 
-이 정도로 메이저한 관심을 받는 피아노 위주 리듬게임은 사실상 디모가 유일하다.
-</br>
-수록곡 중에는 M2U가 작곡한 보스곡도 있고, 
-사이터스의 기존 수록곡인 Saika와 Sanctity의 
-피아노 어레인지 추가 예정 등으로 기존 사이터스 유저들에게 많은 관심과 기대를 
-받고 있다. 그리고 마찬가지로 기존 수록곡 중 하나인 Entrance가 수록되었다.
-그 외에는 마찬가지로 기존 참여 
-작곡가들인 Mili, IceBird, Sta, V.K등과 
-파이널판타지 시리즈의 작곡가인 우에마츠 노부오와 올해 여름에 진행했던 
-레이야크 악곡 모집의 당선곡들도 수록된다. 
-</br>곡을 나타내는 일러스트 또한 수준급으로, 
-메인이 되는 일러스트는 사이터스에서 원화 작업을 한 IGNIS가 대부분을 작업하였으며 
-각 음악팩마다 다른 일러스트레이터를 기용하였다.
-</font>
-<p>
-</div>
+
+	    <script>
+	function move(id)
+	{
+		var nod = document.getElementByld(id);
+		if (nod != null)
+		{
+			if(!nod.classList.contains('begin') && !nod.classList.contains('end'))
+			{
+				nod.classList.add('end');
+			}
+			else
+			   {
+			   nod.classList.toggle('begin');
+			   nod.classList.toggle('end');
+			   }
+</script>
+	  #img1 { position:absolute; transition: 1.5s;}
+	  #img1.begin { left: 50px; top:200px; transform: rotate(0deg);}
+	  #img1.end   { left: 50px; top:200px; transform: rotate(180deg);}
+  </style>
+<div>
+<img id="img1" class="begin" src="test.png" onclick="move('img1')"/>
+	</div>
 </html>
