@@ -3,12 +3,6 @@
 <head>
 <meta charset="utf-8">
   <style>
-	a:link{color: white;}
-	a:visited{color: white;}
-	a:hover{color: white;}
-	a:active{color: white;}
-	a { text-decoration:none }
-	  
 	body {
 	 background: url("2.jpg") no-repeat 
 	 center center fixed; 
@@ -21,7 +15,7 @@
 		text-align:center;
 	  }
 	#wrap{
-		width:100%; height:1000px;
+		width:100%; height:500px;
 		margin:0px 0px; pedding:0px 0px;
 	  }
 	#header{
@@ -58,20 +52,20 @@
 		width:300px;
 		text-align:center;
 		color:#000000;
-		background-color:#ffffff;
+		background-color:#0f0f0f;
 		list-style:none;
 		display: inline;
 		margin:0px 20px;
 	  }
 	#content {
-		width:50%; height:520px;
+		width:61%; height:520px;
 		float:left;
 		color:#ffffff;
 		background-color:#00ffff;
 		position:relative;
 	  }
 	#banner1 {
-		width:16.62%; height:520px;
+		width:13%; height:520px;
 		float:left;
 		color:#ffffff;
 		background-color:#ff00ff;
@@ -79,114 +73,44 @@
 		margin:0px
 	  }
 	#banner2 {
-		width:16.63%; height:520px;
+		width:13%; height:520px;
 		float:left;
 		color:#ffffff;
-		background-color:#0f0f0f;
+		background-color:#00ff00;
 		position:relative;
 		margin:0px
 	  }
 	#banner3 {
-		width:16.63%; height:520px;
+		width:13%; height:520px;
 		float:left;
 		color:#ffffff;
 		background-color:#ff0000;
 		position:relative;
 		margin:0px
 	  }
-	  #content1 {
-		width:100%; height:480px;
-		float:left;
-		color:#ffffff;
-		background-color:#00ffff;
-		position:relative;
-	  }
 	#footer {
 		height:200px;
 		line-height:100px;
-		background-color:#00ff00;
+		background-color:#0f0f0f;
 		position:relative;
 		margin:0px; pedding:0px;
 	  }
-	  .button {
- 			 border-radius: 4px;
- 			 background-color: #f4511e;
- 			 border: none;
- 			 color: #FFFFFF;
- 			 text-align: center;
- 			 font-size: 28px;
- 			 padding: 20px;
- 			 width: 200px;
- 			 transition: all 0.5s;
- 			 cursor: pointer;
- 			 margin: 5px;
-		}
+	#footer li {
+		width:300px;
+		text-align:center;
+		color:#000000;
+		background-color:#0f0f0f;
+		list-style:none;
+		display: inline;
+		margin:0px 20px;
+	  }
 
-	.button span {
- 			 cursor: pointer;
- 			 display: inline-block;
- 			 position: relative;
- 			 transition: 0.5s;
-			}
-
-	.button span:after {
-				 content: '\00bb';
- 				 position: absolute;
- 				 opacity: 0;
-  				 top: 0;
- 				 right: -20px;
-  				 transition: 0.5s;
-				}
-
-	.button:hover span {
-				  padding-right: 25px;
-				}
-
-	.button:hover span:after {
- 					 opacity: 1;
- 					 right: 0;
-				}
-	  
-	  .container {
-  			display: inline-block;
-  			cursor: pointer;
-		  	float:left;
-			}
-
-	.bar1, .bar2 {
-  			width: 30px;
-  			height: 6px;
- 			background-color: #333;
- 			margin: 5px 9px;
-  			transition: 0.2s;
-			}
-
-	.change .bar1 {
-  			-webkit-transform: rotate(-45deg) translate(-9px, 0px);
-  			transform: rotate(-45deg) translate(-9px, 0px);
-			}
-
-	.change .bar2 {
-		-webkit-transform: rotate(45deg) translate(-8px, 0px);
- 	 		transform: rotate(45deg) translate(-8px, 0px);
-	  		}
   </style>
+  <link type="text/css" rel="stylesheet" href="mystyle.css">
 </head>
 	
 <body>
 	<div id="link">
-		<div class="container" onclick="myFunction(this)">
-  		<div class="bar1"></div>
-  		<div class="bar2"></div>
-  		<div class="bar3"></div>
-	</div>
-
-<script>
-function myFunction(x) {
-  x.classList.toggle("change");
-}
-</script>
-
 		<ul>
 		<li>ㅇㅇ</a></li>
 		</ul>
@@ -213,7 +137,6 @@ function myFunction(x) {
 	</div>
 	<div id="banner1">
 		<h1><a href="https://www.naver.com">IAM</a></h1>
-		<button class="button"><span>Hover </span></button>
 	</div>
 	<div id="banner2">
 		<h1><a href="https://www.daum.net">Life</a></h1>
@@ -223,7 +146,12 @@ function myFunction(x) {
 	</div>
 </div>
 	<div id="footer">
-		<h1>footer</h1>
+		<ul>
+			<li>1</a></li>
+			<li>2</a></li>
+			<li>3</a></li>
+			<li>4</a></li>
+		</ul>
 	</div>
 </body>
 </html>
