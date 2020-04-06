@@ -127,7 +127,7 @@ h1 {
 
 .pages {
     position: fixed;
-    right: 10px;
+    right: 100px;
     top: 40%;
     list-style: none;
 }
