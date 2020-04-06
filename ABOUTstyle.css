@@ -33,8 +33,8 @@ body {
     display: block;
     width: 129.6px;
     height: 24px;
-    margin: 60px 100px;
-    background-image: url("LOGO.png");
+    margin: 80px 100px;
+    background-image: url("logo.png");
     background-size: 129.6px 24px;
     text-indent: -9999px;
     vertical-align: top;
@@ -46,9 +46,9 @@ h1 {
 
 #header .logo_text {
     position: absolute;
-    font-family: "Roboto", "Roboto-Regular";
+    font-family: "Roboto", "Roboto-midium";
     font-size: 12px;
-    top: 59px;
+    top: 79px;
     left: 300px;
     line-height: 5px;
     color: #000000;
@@ -62,7 +62,7 @@ h1 {
 
 #navarea {
     position: fixed;
-    top: 145px;
+    top: 165px;
     left: 860px;
     z-index: 5;
     width: 180px;
@@ -73,19 +73,19 @@ h1 {
 #navarea .ul {
     position: relative;
     display: flex;
-    font-family: "Roboto", "Roboto-Regular";
+    font-family: "Roboto", "Roboto-midium";
 }
 
 #navarea ul li {
     list-style: none;
-    font-family: "Roboto", "Roboto-Regular";
+    font-family: "Roboto", "Roboto-midium";
 }
 
 #navarea ul li a {
     position: relative;
     display: block;
     text-decoration: none;
-    font-family: "Roboto", "Roboto-light";
+    font-family: "Roboto", "Roboto-midium";
     font-size: 12px;
     line-height: 32px;
     letter-spacing: 2px;
@@ -94,7 +94,7 @@ h1 {
 
 #navarea ul li a:hover {
     color: #0a0a0a;
-    font-family: "Roboto", "Roboto-light";
+    font-family: "Roboto", "Roboto-midium";
     -webkit-text-stroke: 0px #000;
     transition: 0.2s ease-out;
     transform: translate(8px, 0px);
