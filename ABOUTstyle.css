@@ -128,7 +128,7 @@ h1 {
 .pages {
     position: fixed;
     right: 100px;
-    top: 40%;
+    top: 872px;
     list-style: none;
 }
 
@@ -144,4 +144,56 @@ h1 {
     width: 8px;
     height: 8px;
     background: #323232;
+}
+
+.yellow-green-forest {
+    width: 1490px;
+    height: 250px;
+    margin-top: 234px;
+    margin-left: 330px;
+    object-fit: contain;
+}
+
+#section1 #Who {
+    width: 320px;
+    height: 92px;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 56px;
+    margin-left: 380px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #1e1e1e;
+}
+
+#section1 #about1 {
+    width: 652px;
+    height: 140px;
+    font-family: Avenir;
+    margin-left: 380px;
+    margin-top: 56px;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: 0.15px;
+    color: #000000;
+}
+
+#section1 #about2 {
+    width: 493px;
+    height: 140px;
+    font-family: 'NanumSquare_acR';
+    margin-left: 1152px;
+    margin-top: -137px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.1px;
+    color: #1e1e1e;
 }
